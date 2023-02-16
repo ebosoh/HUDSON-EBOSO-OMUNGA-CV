@@ -2,7 +2,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HUDSON EBOSO OMUNGA CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+<title>HUDSON EBOSO OMUNGA CV</title>
     <style>
         /* General styling */
         * {
@@ -10,15 +14,15 @@
         }
         body {
             margin: 0;
-            padding: 0;
+            padding: 20;
             font-family: Arial, sans-serif;
             font-size: 16px;
         }
 
             /* Header styling */
     .header {
-        background-color: #333;
-        color: #fff;
+        background-color: palevioletred;
+        color: black;
         display: grid;
         grid-template-columns: 1fr auto;
         align-items: center;
@@ -37,12 +41,12 @@
     .content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        padding: 20px;
+        gap: 10px;
+        padding: 10px;
     }
     .content h2 {
         font-size: 24px;
-        margin: 0;
+        margin: 5;
     }
     .content p {
         margin: 10px 0;
@@ -62,8 +66,51 @@
             grid-template-columns: 1fr;
         }
     }
+
+    .profile  {
+        margin: 10px;
+        display: block;
+        background-color: brown;
+        border-radius: 5px;
+    }
+
+    .contacts {
+        margin: 10px;
+        display: block;
+        background-color: royalblue;
+        border-radius: 5px;
+        
+        
+    }
+
+    .competences {
+    margin: 10px;
+    display: block;
+    background-color: skyblue
+    border-radius: 5px;
+   
+    }
+
+    .tech-skills{
+    margin: 10px;
+    display: block;
+    background-color: skyblue;
+    border-radius: 5px;
     
 
+    }
+
+    .experiences {
+    margin: 10px;
+    display: block;
+    background-color: sandybrown;
+    border-radius: 5px;
+    }
+
+    
+       
+    
+    
     
 
 </style>
@@ -72,28 +119,27 @@
 <header class="header">
         <h1>HUDSON EBOSO OMUNGA</h1>
         <img src="/HUDSON-EBOSO-OMUNGA-CV/profile.JPG" alt="Profile Picture" 
-        
-        >
+         >
     </header>
 
     <div class="content">
-        <section>
-            <h2>MY PROFILE</h2>
+        <section class="profile">
+            <h2>Profile:</h2>
             Experinced full-stack Web Applications developer with over 5 year of experience.
             Passionate about developing efficient, maintainable and scalable software solutions that meet business needs.    
         </section>
-        <section>
-            <h2>CONTACT INFORMATION</h2>
+        <section class="contacts">
+            <h2>Contacts:</h2>
             <ul>
                 <li>Email: omungahudson@gmail.com or ebosoh@gmail.com</li>
                 <li>Phone: 254780010010</li>
-                <li>Website: github.com/ebosoh</li>
-                <li>GitHub: github.com/ebosoh</li>
+                <li>Website: https://ebosoh.github.io/HUDSON-EBOSO-OMUNGA-CV</li>
+                <li>GitHub: @github.com/ebosoh</li>
             </ul>
         </section>
     
-        <section>
-            <h2>TECH. COMPETENCES</h2>
+        <section class="tech-skills">
+            <h2 >Tech Skills:</h2>
             <li>Proficient in Ruby, Python, Java, JavaScript, HTML and CSS</li>
             <li>Experience with SQL databases and Active Record</li>
             <li>Working competence in Ruby on Rails, React, Bootstrap</li>
@@ -103,8 +149,8 @@
             <li>Excellent in communication and teamwork</li>
         </section>
     
-        <section>
-            <h2>EXPERIENCES</h2>
+        <section class="experiences">
+            <h2>Experiences:</h2>
             <h3>Software Developer - Bytech Systems  Limited.</h3>
             <p><em>2018 - 2021</em></p>
             <li>Design and Development of Software Solutions</li>
